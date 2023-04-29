@@ -1,0 +1,29 @@
+body{
+  background-color: yellow;
+}
+.calculator{
+  padding:100px;
+  border-radius: 2 em;
+  background-color: greenyellow;
+  box-shadow: black;
+}
+td :hover{
+  background-color: red;
+/*   background-color: yellow; */
+}
+.neha{
+  transition-duration: 2s;
+  font-family: 'Baloo Bhai',cursive;
+  border-radius: 2em;
+}
+td.vin:hover,td.vin:active{
+  font-family: monospace;
+}
+div.can{
+  display:none;
+}
+span.cancel:hover+div.can{
+  display:block;
+}
+
+
